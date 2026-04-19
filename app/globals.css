@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg:      #faf7f5;
+  --color-fg:      #4a4358;
+  --color-muted:   #f0ebe6;
+  --color-subtle:  #8e8498;
+  --color-card:    #ffffff;
+  --color-border:  #ebe5df;
+  --color-primary: #b8a9c9;
+  --color-ring:    #c9b8d9;
+  --color-secondary: #f3eff6;
+  --color-accent:  #5c4f6e;
+}
+
+body {
+  background-color: #faf7f5;
+  color: #4a4358;
+  -webkit-font-smoothing: antialiased;
+}
